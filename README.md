@@ -1,4 +1,6 @@
+<h1 align="center">
 <img src='./frontend/src/assets/logo.svg'>
+</h1>
 
 This is a **Web** and **Mobile** application using **JavaScript**, **NodeJS**, **ReactJS** and **ReactNative**.
 
@@ -11,7 +13,15 @@ The mobile application is made for anyone who wants to help and donate for an ON
 
 # Web Demonstration
 
+<h1 align="center">
+    <img src="./github/web-demo.gif" />
+</h1>
+
 # Mobile Demonstration
+
+<h1 align="center">
+    <img src="./github/mobile-demo.gif" alt="dmobile-demo" height=430 />
+</h1>
 
 # Requirements
 * **Node** - v10.19.0+
@@ -20,3 +30,20 @@ The mobile application is made for anyone who wants to help and donate for an ON
 
 # How to run
 
+## Web
+1. Clone this rep
+2. Execute ```$ npm install``` on "/backend" and "/frontend" folders to install dependencies;
+3. On backend folder, execute ```$ npm start```, then execute the same command on frontent folder;
+4. The application is now running on <a href=http://localhost:3000> http://localhost:3000</a>.
+
+## Mobile
+1. First, execute <code>$ yarn install</code> on <code>'./mobile'</code> folder for installing dependencies
+2. Then, execute yarn start on <code>'./mobile'</code> folder
+3. A window will open automatically, and then copy the url link gived near the QRCode or scanning the QRCode
+4. Go on ```'./mobile/src/services/api.js'``` file, and change this url:  
+ <code>baseURL: 'http://192.168.15.8:3333'</code>  
+ to your copied url changing the content after the ':' for 3333 (same as it where on previous code)
+ 5. Make sure the Web App is running
+ 6. Download 'Expo' app on PlayStore or AppStore
+ 7. Run yarn start again on <code>'./mobile'</code> folder and scan the QRCode with Expo app
+ 8. Enjoy the application :)
